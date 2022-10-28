@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10109" started-at="2022-10-27T21:52:04 EDT" finished-at="2022-10-27T21:52:15 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10109" started-at="2022-10-27T21:52:04 EDT" finished-at="2022-10-27T21:52:15 EDT">
+      <class name="com.ap.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="launchConfig()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="launchConfig" is-config="true" duration-ms="6" started-at="2022-10-27T21:52:04 EDT" finished-at="2022-10-27T21:52:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchConfig -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="setup" is-config="true" duration-ms="5346" started-at="2022-10-27T21:52:04 EDT" finished-at="2022-10-27T21:52:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:2, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="validateLoginPageTitleTest" duration-ms="24" started-at="2022-10-27T21:52:10 EDT" finished-at="2022-10-27T21:52:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-10-27T21:52:10 EDT" finished-at="2022-10-27T21:52:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="setup" is-config="true" duration-ms="3192" started-at="2022-10-27T21:52:11 EDT" finished-at="2022-10-27T21:52:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPageCurrentUrlTest()[pri:3, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="validateLoginPageCurrentUrlTest" duration-ms="16" started-at="2022-10-27T21:52:14 EDT" finished-at="2022-10-27T21:52:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageCurrentUrlTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@1dd02175]" name="tearDown" is-config="true" duration-ms="742" started-at="2022-10-27T21:52:14 EDT" finished-at="2022-10-27T21:52:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ap.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
