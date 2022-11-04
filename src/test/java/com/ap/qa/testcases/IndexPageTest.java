@@ -19,11 +19,13 @@ public class IndexPageTest extends TestBase {
 	@BeforeMethod
 	public void setup() {
 		launchApplication();
-		indexpage = new IndexPage();
+	
+		
 	}
 
 	@Test(priority = 1)
 	public void validateLogoIconTest() {
+		indexpage = new IndexPage();
 		boolean logoPresence = indexpage.validateLogoIconAction();
 		Assert.assertTrue(logoPresence);
 	}
@@ -48,11 +50,13 @@ public class IndexPageTest extends TestBase {
 
 	@Test(priority = 5)
 	public void clickOnSignInLinkTest() {
+		loginpage = new LoginPage();
 		loginpage = indexpage.clickOnSignInLinkAction();
 	}
 
 	@Test(priority = 6)
 	public void searchProductSubmitButtonTest() {
+		searchresultpage = new SearchResultPage();
 		searchresultpage = indexpage.searchProductSubmitButtonAction();
 	}
 
